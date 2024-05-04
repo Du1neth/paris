@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "573540024793",
+    "project_id": "paris-travel-aae5d",
+    "storage_bucket": "paris-travel-aae5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573540024793:android:77e2bef86da417f59cd9c8",
+        "android_client_info": {
+          "package_name": "com.example.travel_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwWd4Lb1gAGulRC6Eh4Vbc1ZZxTyYNJZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
