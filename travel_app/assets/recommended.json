@@ -1,0 +1,31 @@
+{
+    "items":  [
+        {
+            "id": "des1",
+            "name": "Eiffel Tower",
+            "description": "Eiffel Tower is the signature landmark",
+            "image": "assets/images/eiffel-tower.jpg"
+        },
+
+        {
+            "id": "des2",
+            "name": "Louvre",
+            "description": "Louvre museum",
+            "image": "assets/images/louvre.jpg"
+        },
+
+        {
+            "id": "des3",
+            "name": "Destination 3",
+            "description": "Another destination",
+            "image": "assets/images/arthouse.jpg"
+        },
+
+        {
+            "id": "des3",
+            "name": "Destination 3",
+            "description": "Another destination",
+            "image": "assets/images/arthouse.jpg"
+        }
+    ]
+}

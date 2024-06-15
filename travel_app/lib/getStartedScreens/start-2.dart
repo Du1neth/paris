@@ -12,11 +12,11 @@ class StartPage2 extends StatelessWidget {
         children: [
           Image.asset(
             'assets/images/intro2.gif',
-            width: 200, // Adjust the width as needed
-            height: 200, // Adjust the height as needed
+            width: 200,
+            height: 200,
           ),
           const SizedBox(height: 20),
-          Center(
+          const Center(
             child: Text(
               'Uncover Hidden Gems',
               style: TextStyle(

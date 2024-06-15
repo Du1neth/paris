@@ -4,7 +4,7 @@ import 'package:travel_app/theme/theme.dart';
 import 'package:travel_app/theme/theme_provider.dart';
 
 class Settings extends StatelessWidget {
-  const Settings({Key? key});
+  const Settings({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class Settings extends StatelessWidget {
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
-                color: Theme.of(context).textTheme.bodyText1!.color,
+                color: Theme.of(context).textTheme.bodyLarge?.color,
               ),
             ),
             SizedBox(height: 10),
@@ -34,9 +34,7 @@ class Settings extends StatelessWidget {
                   'Light Mode',
                   style: TextStyle(
                     fontSize: 16,
-                    color: themeProvider.themeData == darkMode
-                        ? Colors.white
-                        : const Color.fromARGB(255, 255, 255, 255),
+                    color: Theme.of(context).textTheme.bodyLarge?.color,
                   ),
                 ),
                 Switch(
@@ -50,9 +48,7 @@ class Settings extends StatelessWidget {
                   'Dark Mode',
                   style: TextStyle(
                     fontSize: 16,
-                    color: themeProvider.themeData == lightMode
-                        ? Color.fromARGB(255, 0, 0, 0)
-                        : Colors.black,
+                    color: Theme.of(context).textTheme.bodyLarge?.color,
                   ),
                 ),
               ],

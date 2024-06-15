@@ -175,7 +175,7 @@ void _signIn() async {
     // Navigate to the Home screen after successful sign in
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => HomePage()),
+      MaterialPageRoute(builder: (context) => HomePage(selectedPreferences: [],)),
     );
   } on FirebaseAuthException catch (e) {
     // Handle sign in errors
@@ -189,10 +189,7 @@ void _signIn() async {
       errorMessage = 'An error occurred. Please try again later.';
     }
 
-    // Close loading dialog
     Navigator.pop(context);
-
-    // Show error dialog
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
@@ -201,7 +198,7 @@ void _signIn() async {
         actions: [
           TextButton(
             onPressed: () {
-              Navigator.pop(context); // Close error dialog
+              Navigator.pop(context);
             },
             child: const Text('OK'),
           ),

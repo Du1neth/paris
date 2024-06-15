@@ -285,7 +285,7 @@ class _RegisterNowState extends State<RegisterNow> {
       // Navigate to the Home screen after successful sign up
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => HomePage()),
+        MaterialPageRoute(builder: (context) => HomePage(selectedPreferences: [],)),
       );
     } on FirebaseAuthException catch (e) {
       // Handle sign up errors

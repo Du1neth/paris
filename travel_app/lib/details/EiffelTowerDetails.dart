@@ -103,7 +103,7 @@ class _EiffelTowerDetailsState extends State<EiffelTowerDetails> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          'Price: Rs. 10100', 
+                          'Price: Rs. 10100',
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,

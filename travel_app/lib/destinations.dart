@@ -35,7 +35,7 @@ destinations({
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(                    
+                  Text(
                     name,
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(fontSize: 20),
